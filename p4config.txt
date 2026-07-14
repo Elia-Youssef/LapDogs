@@ -1,0 +1,4 @@
+P4PORT=ssl:54.146.86.85:1666
+P4USER=NadimS
+P4CLIENT=NadimS__LapDogs
+P4IGNORE=.p4ignore.txt

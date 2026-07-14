@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ShibAsyncLoadingScreen",
+	"Description": "Loading screen manager handling creation and display of a project-specified loading screen widget",
+	"Category": "Gameplay",
+	"CreatedBy": "Shiba Inu",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ShibAsyncLoadingScreen",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"TargetDenyList": [
+				"Server"
+			],
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"IOS",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "ShibStartupLoadingScreen",
+			"Type": "ClientOnly",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"PlatformDenyList": [
+				"IOS",
+				"Linux",
+				"Android"
+			]
+		}
+	]
+}
