@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 1 seconds
-Output:
 # LapDogs
 
 LapDogs is a multiplayer online kart racing game built in Unreal Engine 5 for the Shiba Inu ecosystem. Shiboshi and Sheboshi avatars compete in ability-driven races featuring Grand Prix events, online matchmaking, AI competitors, live leaderboards, and tournament integrations.
@@ -78,4 +75,3 @@ After restoring the private dependencies:
 Copyright notices in the source identify Shiba Inu Games LLC.
 
 No open-source license is currently included. Unless a separate license grants permission, the source is provided for viewing and portfolio reference only.
-
